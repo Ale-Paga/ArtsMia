@@ -80,4 +80,12 @@ public class Model {
 		System.out.println("#VERTICI: "+ grafo.vertexSet().size()); 
 		System.out.println("#ARCHI: "+grafo.edgeSet().size());  //NON CI STAMPERà NULLA PERCHé L'APPROCCIO 1 è MOLTO LENTO
 	}
+	
+	public int getNVertici() {
+		return this.grafo.vertexSet().size();
+	}
+	
+	public int getNArchi() {
+		return this.grafo.edgeSet().size();
+	}
 }
