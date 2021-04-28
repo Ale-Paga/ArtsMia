@@ -47,7 +47,7 @@ public class FXMLController {
     
     @FXML
     void doAnalizzaOggetti(ActionEvent event) {
-
+    	//creo il grafo
     }
 
     @FXML
